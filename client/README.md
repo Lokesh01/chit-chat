@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# sit live on : "https://chit-chat-mern-app.netlify.app"
+
 ## Available Scripts
 
 In the project directory, you can run:

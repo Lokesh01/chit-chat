@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import Logo from "../assets/logo.svg";
+import Logo from "../assets/logo.png";
 
 const Contacts = ({ contacts ,changeChat}) => {
   const [currentUserName, setCurrentUserName] = useState(undefined);
