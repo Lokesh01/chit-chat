@@ -47,7 +47,7 @@ const server = app.listen(PORT, () => {
 
 const io = socket(server, {
   cors: {
-    origin: "*",
+    origin: "https://spiffy-mermaid-aea95e.netlify.app",
     credentials: true,
   },
 });
