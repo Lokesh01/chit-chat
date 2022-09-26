@@ -4,8 +4,7 @@
   "description": "full stack chat application ",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Lokesh Negi",
   "license": "ISC",
