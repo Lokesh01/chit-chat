@@ -15,9 +15,9 @@ Uses Socket.io for real time communication and stores user details in encrypted 
 
 **Authorization:** JWT
   
-## [Demo]("https://chit-chat-mern-app.netlify.app")
+## [Demo](https://chit-chat-mern-app.netlify.app)
 
-![](https://github.com/Lokesh01/chit-chat/blob/main/screenshots/login.png)
+![](/screenshots/chat.png)
 
 ## Run Locally
 
@@ -61,10 +61,18 @@ Start the Client
 # Features
 
 ### Authenticaton
-![](https://github.com/Lokesh01/chit-chat/blob/master/screenshots/login.PNG)
-![](https://github.com/Lokesh01/chit-chat/blob/master/screenshots/signup.PNG)
+
+#### Register
+![](screenshots/register.PNG)
+
+#### Login
+![](screenshots/login.PNG)
+
+### Welcome
+![](screenshots/welcome.PNG)
+
 ### One to One chat
-![](https://github.com/Lokesh01/chit-chat/blob/master/screenshots/mainscreen.PNG)
+![](screenshots/one-one.PNG)
 ## Made By
 
 - [@Lokesh01](https://github.com/Lokesh01)
