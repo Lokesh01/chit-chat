@@ -63,16 +63,16 @@ Start the Client
 ### Authenticaton
 
 #### Register
-![](screenshots/register.PNG)
+![](screenshots/register.png)
 
 #### Login
-![](screenshots/login.PNG)
+![](screenshots/login.png)
 
 ### Welcome
-![](screenshots/welcome.PNG)
+![](screenshots/welcome.png)
 
 ### One to One chat
-![](screenshots/one-one.PNG)
+![](screenshots/one-one.png)
 ## Made By
 
 - [@Lokesh01](https://github.com/Lokesh01)
