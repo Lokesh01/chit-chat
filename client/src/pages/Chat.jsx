@@ -32,7 +32,6 @@ const Chat = () => {
 
   useEffect(() => {
     fetchCurrUser();
-    // console.log(currentUser);
   }, []);
 
   //socket config

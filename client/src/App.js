@@ -1,16 +1,25 @@
 import './App.css';
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import { Chat, Login, Register, SetAvatar } from './pages';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import { Chat,Login, Register, SetAvatar } from './pages';
+import { lazy, Suspense } from 'react';
+
+const Chat = lazy(() => import("./pages/Chat"))
+const Login = lazy(() => import("./pages/Login"))
+const Register = lazy(() => import("./pages/Register"))
+const SetAvatar = lazy(() => import("./pages/SetAvatar"))
+
 
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/register" element={<Register />} />
-        <Route path="/setavatar" element={<SetAvatar />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/" element={<Chat />} />
-      </Routes>
+      <Suspense fallback={<>...</>}>
+        <Routes>
+          <Route path="/register" element={<Register />} />
+          <Route path="/setavatar" element={<SetAvatar />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Chat />} />
+        </Routes>
+      </Suspense>
     </Router>
   );
 }
