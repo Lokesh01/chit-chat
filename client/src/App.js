@@ -1,6 +1,5 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-// import { Chat,Login, Register, SetAvatar } from './pages';
 import { lazy, Suspense } from 'react';
 
 const Chat = lazy(() => import("./pages/Chat"))
