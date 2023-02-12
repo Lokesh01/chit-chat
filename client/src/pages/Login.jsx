@@ -6,6 +6,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import { loginRoute } from "../utils/APIRoutes";
+import SocialLoginButtons from "../components/SocialLoginButtons";
 
 //toastify settings
 const toastifyOptions = {
@@ -89,7 +90,8 @@ const Login = () => {
             onChange={(e) => handleChange(e)}
           />
 
-          <button type="submit">LogIn</button>
+          <button type="submit" className="btn">LogIn</button>
+          <SocialLoginButtons/>
           <span>
             Don't have an account ? <Link to="/register">Register</Link>
           </span>
@@ -147,7 +149,7 @@ const FormContainer = styled.div`
       }
     }
 
-    button {
+    .btn {
       background-color: #997af0;
       color: white;
       padding: 1rem 2rem;
