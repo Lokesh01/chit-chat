@@ -15,7 +15,7 @@ Uses Socket.io for real time communication and stores user details in encrypted 
 
 **Authorization:** JWT
   
-## [Demo](https://chit-chat-mern-app.netlify.app)
+## [Demo]( https://main--chit-chat-front.netlify.app/)
 
 ![](/screenshots/chat.png)
 
